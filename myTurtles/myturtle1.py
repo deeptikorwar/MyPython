@@ -1,13 +1,16 @@
+"""This script shows you how to use the turtle module to draw multiple squares
+using a function."""
 import turtle
 
 window = turtle.Screen() #the canvas on which the turtle can draw
 window.bgcolor("red")
 
 #I am going to pass my turtle object to the function and execute the function
-#many times
+#multiple times
 
-def mysquare(mypet):
-    mypet.color("yellow")
+def mysquare(mypet, color):
+    """Draws a square of the specified color."""
+    mypet.color(color)
     mypet.shape("turtle")
     for i in range(3):
         mypet.forward(100)
@@ -15,13 +18,11 @@ def mysquare(mypet):
     mypet.forward(100)
 
 brad = turtle.Turtle()
-mysquare(brad)
+mysquare(brad, "yellow")
 
 geoff = turtle.Turtle()
-geoff.color("blue")
+#Let's move geoff by two spaces so that he does not overwrite brad
 geoff.forward(2)
-mysquare(geoff)
-#how do I make geoff blue? It is overwritten by yellow in mysquare... how do
-# I avoid that???
+mysquare(geoff,"blue")
 
 window.exitonclick()
