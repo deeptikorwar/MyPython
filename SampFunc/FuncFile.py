@@ -1,4 +1,6 @@
 def fn_add(num_list):
+    """Adds the numbers in the list passed to the function and returns the
+     sum."""
     count=0
     for i in num_list:
         count = count + i
