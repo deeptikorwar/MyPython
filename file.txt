@@ -1,0 +1,15 @@
+Type    Tag	Item
+TS  strong	"My question generally goes in the first line."
+TS  p	"My first paragraph containing technical solution."
+TS  p	"My second paragraph containing technical solution."
+TS  a	https://xyz.com
+CS  p	"My first paragraph containing customer solution."
+CS  a	https://abcd.com
+CS  bullet
+CS  b	Bullet item 1
+CS  b	Bullet item 2
+CS  endbullet
+CS  step
+CS  n	Numbered step 1
+CS  n	Numbered step 2
+CS  endstep
