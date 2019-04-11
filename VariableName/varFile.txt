@@ -1,0 +1,8 @@
+lorem ipsum doler amit {short_var_name} lorem ipsum doler amit {long_var_name}
+ipsum dole amit {long_var_name} fusta busta agostos {short_var_name}
+monte carlo dolo amit {short_var_name}
+fusta busta agostos {long_var_name}
+ameiliorate asta kintala
+ipsum dole amit {long_api_name} fusta busta agostos {short_api_name}
+monte carlo dolo amit {short_api_name}
+fusta busta agostos {long_api_name}
