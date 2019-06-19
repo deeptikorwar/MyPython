@@ -9,6 +9,7 @@ The scripts are organised into folders. Each of the folders contain a .py script
 * The script in the [createHTML](createHTML) folder shows you how to convert tab delimited text into HTML output
 * Files in the [Emails](Emails) folder show you how to read files and split the file content into individual batches
 * Files in the [Flowers](Flowers) folder show you how to read files and create a dictionary
+* The script in [insertScript](insertScript) folder shows you how to add a line at the beginning of a file
 * Files in the [myTurtles](myTurtles) folder show you how to create objects using classes and how to draw on the screen. Happy drawring!!!
 * Files in the [SampFunc](SampFunc) folder show you how to use functions and standard libraries
 * The script in the [VariableName](VariableName) folder can be used to check if the short description of a Django variable appears before the corresponding long description of a Django variable.
