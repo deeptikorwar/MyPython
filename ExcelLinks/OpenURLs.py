@@ -1,4 +1,4 @@
-#Use this script to test a list of URLs; pass the URLs via a CSV file.
+#Use this script to open a list of URLs; pass the URLs via a CSV file.
 #If you are using an Excelsheet to capture the list of URLs, export the data to
 # a CSV file.
 
@@ -33,7 +33,7 @@ def check_number(number):
 #function to check if number is positive
 def notify_user_pnumber(uinput,iname):
     if check_number(uinput)=="Positive":
-        return int(uinput) 
+        return int(uinput)
     elif check_number(uinput)=="Negative":
         print("Sorry {} numbers cannot be negative. Try again".format(iname))
         sys.exit()
